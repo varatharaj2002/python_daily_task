@@ -33,6 +33,8 @@ strings = ["hello", "world", "python"]
 capitalized_strings = list(map(capitalize_first, strings))
 print(capitalized_strings)
 
+# ..................................................................................
+
 # Filter out even numbers from a list
 def odd(x):
     return x % 2 != 0
@@ -77,6 +79,7 @@ def is_negative(x):
 numbers = [-5, 3, 0, -2, 7, -1, 4]
 filtered_numbers = list(filter(is_negative, numbers))
 print(filtered_numbers)
+# ......................................................................................
 
 # Find the product of all numbers in a list
 from functools import reduce
